@@ -1,0 +1,14 @@
+.carousel-caption h5{ 
+    font-size: 41px;
+    font-weight: 300;
+    margin-top: -40%;
+}
+.block{
+    border-bottom: 1px solid #ddd;
+}
+.block2{
+    border-top: 1px solid #ddd;
+}
+.table5{
+    background-color:#f8f9fa;
+}

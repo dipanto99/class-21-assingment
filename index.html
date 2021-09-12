@@ -1,0 +1,457 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>Class 21</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+ <header>
+        <div class="row">
+            <div class="col-xl-12">
+               <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                   <div class="container-fluid">
+                     <a class="navbar-brand text-primary" href="#">LFWF Academy</a>
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                       <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                         <li class="nav-item">
+                           <a class="nav-link active" aria-current="page" href="#">Home</a>
+                         </li>
+                         <li class="nav-item">
+                           <a class="nav-link" href="#">About</a>
+                         </li>
+                         <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                             Service
+                           </a>
+                           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                             <li><a class="dropdown-item" href="#">Action</a></li>
+                             <li><a class="dropdown-item" href="#">Another action</a></li>
+                             <li><hr class="dropdown-divider"></li>
+                             <li><a class="dropdown-item" href="#">Something else here</a></li>
+                           </ul>
+                         </li>
+                         <li class="nav-item">
+                           <a class="nav-link" href="#">Blog</a>
+                         </li>
+                       </ul>
+                       <form class="d-flex">
+                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                         <button class="btn btn-outline-primary" type="submit">Search</button>
+                       </form>
+                     </div>
+                   </div>
+                 </nav>
+            </div>
+      </div>
+ </header>
+ <section>
+        <div class="row">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./poto/landscape.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./poto/lake.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                  </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+       </div>
+       </div>
+ </section>
+<section class="block">
+     <div class="container mt-5 mb-5">
+       <div class="row">
+         <div class="col-xl-4">
+          <img src="./poto/Portrait-of-smiling-handsome-man-in-blue-t-shirt-standing-with-crossed-arms-isolated-on-grey-backgro.jpg" class="img-thumbnail" alt="...">
+         </div>
+         <div class="col-xl-8">
+           <h3>Blockquote use korchi</h3>
+          <figure class="text-start">
+            <blockquote class="blockquote">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam commodi et architecto mollitia tempora inventore quisquam illum, corrupti fuga atque?</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptate doloremque in corporis accusantium cum cupiditate ea neque suscipit repellat.</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              LFWF <cite title="Source Title">Academy</cite>
+            </figcaption>
+          </figure>
+         </div>
+       </div>
+     </div>
+</section>
+<section class="table5 p-4 mt-3 mb-3">
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col-xl-7">
+          <h5 class="text-success mb-4">Bootstrap 5 table</h5>
+            <table class="table table table-dark table-hover">
+              <thead>
+                <tr class="table-dark">
+                  <th scope="col">No.</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Class</th>
+                  <th scope="col">Roll</th>
+                  <th scope="col">Section</th>
+                  <th scope="col">Adderss</th>
+                  <th scope="col">Contant</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table-primary">
+                  <th>1</th>
+                  <td>Shahid</td>
+                  <td>Ten</td>
+                  <td>15</td>
+                  <td>A</td>
+                  <td>Dhaka</td>
+                  <td>+8809734982</td>
+                </tr>
+                <tr class="table-secondary">
+                  <th>1</th>
+                  <td>Arif</td>
+                  <td>Ten</td>
+                  <td>15</td>
+                  <td>A</td>
+                  <td>Dhaka</td>
+                  <td>+8809734982</td>
+                </tr>
+                <tr class="table-success">
+                  <th>1</th>
+                  <td>Hasib</td>
+                  <td>Ten</td>
+                  <td>15</td>
+                  <td>A</td>
+                  <td>Dhaka</td>
+                  <td>+8809734982</td>
+                </tr>
+                <tr class="table-danger">
+                  <th>1</th>
+                  <td>Hasib</td>
+                  <td>Ten</td>
+                  <td>15</td>
+                  <td>A</td>
+                  <td>Dhaka</td>
+                  <td>+8809734982</td>
+                </tr>
+                <tr class="table-warning">
+                  <th>1</th>
+                  <td>Hasib</td>
+                  <td>Ten</td>
+                  <td>15</td>
+                  <td>A</td>
+                  <td>Dhaka</td>
+                  <td>+8809734982</td>
+                </tr>
+                <tr class="table-info">
+                  <th>1</th>
+                  <td>Hasib</td>
+                  <td>Ten</td>
+                  <td>15</td>
+                  <td>A</td>
+                  <td>Dhaka</td>
+                  <td>+8809734982</td>
+                </tr>
+                <tr class="table-secondary">
+                  <th>1</th>
+                  <td>Hasib</td>
+                  <td>Ten</td>
+                  <td>15</td>
+                  <td>A</td>
+                  <td>Dhaka</td>
+                  <td>+8809734982</td>
+                </tr>
+                <tr class="table-success">
+                  <th>1</th>
+                  <td>Hasib</td>
+                  <td>Ten</td>
+                  <td>15</td>
+                  <td>A</td>
+                  <td>Dhaka</td>
+                  <td>+8809734982</td>
+                </tr>
+                <tr class="table-primary">
+                  <th>1</th>
+                  <td>Hasib</td>
+                  <td>Ten</td>
+                  <td>15</td>
+                  <td>A</td>
+                  <td>Dhaka</td>
+                  <td>+8809734982</td>
+                </tr>
+              </tbody>
+            </table>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Launch demo modal
+            </button>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti quaerat voluptates consectetur quis dolorem unde ipsa dolores hic aliquid ipsam.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      
+        <div class="col-xl-5">
+            
+          <h5 class="text-success mb-4">Bootstrap5 Form</h5>
+          <div class="row">
+              
+                  <div class="col-xl-6">
+                      <label for="name">First Name</label><br>
+                      <input class="form-control"  type="text" placeholder="First Name">
+                  </div>
+
+              <div class="col-xl-6">
+                  <label for="name" >Last Name</label><br>
+                  <input class="form-control"  type="text" placeholder="Last Name">
+              </div>
+              
+          </div>
+          <label for="email">E-mail Address</label><br>
+          <input type="email" class="form-control" name="email"  placeholder="name@example.com">
+          <label for="masage">Message</label>
+          <textarea class="form-control" name="" id="" cols="15" rows="3"></textarea>
+          <label for="file">Chose Flie</label>
+          <input type="file" class="form-control"><br>
+          <select class="form-select" >
+              <option selected hidden>Select your country</option>
+              <option value="1">Bangladesh</option>
+              <option value="2">Pakistan</option>
+              <option value="2">India</option>
+              <option value="2">Newziland</option>
+              <option value="2">Austolia</option>
+              <option value="2">South-Africa</option>
+              <option value="2">Sudia Araib</option>
+              <option value="2">Oman</option>
+              <option value="2">Zapan</option>
+              <option value="2">England</option>
+              <option value="2">London</option>
+              <option value="2">Qatar</option>
+              <option value="2">Abu-Dabi</option>
+              <option value="2">Dubai</option>
+              <option value="2">Afganistan</option>
+              <option value="2">Bankog</option>
+              <option value="2">Maloshia</option>
+          </select><br>
+          <h5>Choese Your Curose</h5> 
+          <input class="form-check-input" type="checkbox"> <label for="">  Web Design</label> <br>
+          <input class="form-check-input" type="checkbox"> <label for="">Graphic Design</label> <br>
+       
+         <button class="btn btn-success mt-2  py-1 px-4">Submit</button>
+        </div>
+      </div>
+    </div>
+</section>
+<section class="block2 block">
+  <div class="container">
+    <div class="row">
+        <h4 class="text-center mt-5">Bootstrap Card and Progress Bar</h4>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 py-5">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h5>This is header</h5>
+                    </div>
+                        <h5 class="ms-3">Card title</h5>
+                      <ul class="list-group mx-3">
+                        <li class="list-group-item">This is Card List</li>
+                        <li class="list-group-item">This is Card List</li>
+                        <li class="list-group-item">This is Card List</li>
+                        <li class="list-group-item">This is Card List</li>
+                        <li class="list-group-item">This is Card List</li>
+                      </ul>
+
+                    <div class="card-text">
+                        <p class="mx-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis reprehenderit ipsa officiis vel saepe quam! Lorem ipsum dolor sit amet consectetur, adipisicing elit.  </p>
+                        <div class="card-body">
+                          <a class="card-link" href="#">Card link</a>
+                          <a class="card-link" href="#">Another link</a><br><br>
+                          <a href="#" class="btn btn-primary">Read more..</a>
+                        </div>
+                       
+                        <div class="card-footer text-center">This is footer</div>
+                    </div>
+                    
+                </div>
+
+            </div>
+            <div class="col-xl-4 py-5">
+                <label for="">Html</label>
+                <div class="progress">
+                    
+                    <div class="progress-bar" style="width: 90%;">
+                      90%
+
+                    </div>
+                </div>
+                <label class="protiva" for="">CSS</label>
+                <div class="progress">
+                    
+                    <div class="progress-bar" style="width: 95%;">
+                      95%
+
+                    </div>
+                </div>
+                <label for="">JS</label>
+                <div class="progress">
+                    
+                    <div class="progress-bar" style="width: 80%;">
+                      80%
+
+                    </div>
+                </div>
+                <label for="">Woardpress</label>
+                <div class="progress">
+                    
+                    <div class="progress-bar" style="width: 85%;">
+                      85%
+
+                    </div>
+                </div><br><br>
+                <h5>Text-trancate bootstrap class use kore 3 dot ansi</h5>
+                <p class="text-truncate">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet vel explicabo dolore? Itaque?</p><br>
+                <div class="alert alert-danger" role="alert">
+                    A simple danger amit-check out it
+                </div>
+            </div>
+            
+            
+            <div class="col-xl-4 py-5">
+                <div class="card">
+                    <div class="card-header text-center">
+                        This is header
+                    </div>
+                    <img class="ms-3 mt-3 me-3" src="https://i.ibb.co/YdyK5yP/grapefruit-slice-332-332.jpg" alt="">
+
+                    <p class="mx-3 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit animi omnis aspernatur unde atque aperiam illum quod necessitatibus tempora doloribus.</p>
+
+                    <div class="card-footer text-center">
+                        This is footer
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+  </div>
+</section>
+<section class="table5 mt-3 pb-5">
+  <div class="container">
+    <div class="row">
+                <h4  class="text-center py-5 text-success">Strchead-Link Bootstrap class use kore aj kaj korben</h4>
+            <div class="row">
+                <div class="col-xl-4">
+                    <div class="card">
+                        <img src="https://i.ibb.co/1Q7KDkb/blog-2.jpg" alt="">
+                  
+                      <div class="card-body">
+                         <p class="fs-5"> Card width strchead link</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam officia deleniti sequi, modi saepe error cum accusamus ut nesciunt numquam fuga, omnis quis porro temporibus!</p>
+                          <a class="btn btn-primary " href="#">Go somewhere</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="card">
+                        <img src="https://i.ibb.co/vHTYwPL/blog-3.jpg" alt="">
+                  
+                      <div class="card-body">
+                         <p class="fs-5"> Card width strchead link</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam officia deleniti sequi, modi saepe error cum accusamus ut nesciunt numquam fuga, omnis quis porro temporibus!</p>
+                          <a class="btn btn-primary " href="#">Go somewhere</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="card">
+                        <img src="https://i.ibb.co/gS8XqXY/blog-1.jpg" alt="">
+                  
+                      <div class="card-body">
+                         <p class="fs-5"> Card width strchead link</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam officia deleniti sequi, modi saepe error cum accusamus ut nesciunt numquam fuga, omnis quis porro temporibus!</p>
+                          <a class="btn btn-primary " href="#">Go somewhere</a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+  </div>
+</section>
+<section class="mt-4">
+  <div class="container">
+    <div class="row">
+      
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</section>
+
+<footer class="text-center bg-dark text-white">
+  <p class="p-3">&copy;All Right Reserved By Design By Lfwf</p>
+</footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
